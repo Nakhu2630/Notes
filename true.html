@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Note For You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="rewind-screen" class="screen active">
+<div id="start-screen" class="screen active">
+    <h1>Petualangannya Mau Dimulai Nih!!</h1>
+    <img src="yayyy.png" class="yess"/>
+    <button id="start-journey">Mulai?</button>
+</div>
+
+<div id="loading-screen" class="screen">
+    <div class="loading-content">
+    <div id="year-display">2009</div>
+    <img src="i1.jpg" class="yes"/>
+    <div class="loading-text">Rewinding your story...</div>
+    </div>
+</div>
+
+<div id="finish-screen" class="screen">
+    <h2>All caught up to 2025 💖</h2>
+    <button id="finish-journey">Lanjut lagi? Masih ada catatan yang belum aku tunjukkin :D</button>
+</div>
+</div>
+
+<h1><center>Good Morning, The Dearest One.</center></h1>
+
+<div class="envelope-wrapper">
+    <div class="decorations">
+        <img src="teddy-bear-doll-cute.png" class="deco deco1">
+        <img src="cute-pink-coquette-ribbon-free-png.webp" class="deco deco2">
+        <img src="pngtree-cartoon-cherry-png-image_6218484.png" class="deco deco3">
+        <img src="Ce.jpg" class="deco deco4">
+    </div>
+    <div id="envelope" class="close">
+        <div class="front flap"></div>
+        <div class="front pocket"></div>
+        <div class="letter">
+            <div class="words line4">HAPPY BIRTHDAY!!!</div>
+            <div class="words line4">CONGRATS ON BECOMING 16!!</div>
+            <div class="words line4">Semoga berbagai harapan kamu bisa terwujud yaa, Semangat terus untuk bertumbuh dalam kasih Tuhan!!</div>
+            <div class="words line4">Ini ada musik yang chill, mungkin kalo kamu lagi ngerasa down, boleh dengerin ini ^^</div>
+            <div class="youtube-player" style="text-align:center; margin-top:20px;">
+                <iframe width="260" height="146"
+                    src="https://youtube.com/embed/hA96JCdMRCs?si=RPxMNZXN-0Em_GU3"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="words line4">Istirahat sejenak di hari ulang tahun kamu, and enjoy dunia di sekitar kamu. You did your best to keep on living till right now, Im very proud of you!</div>
+        </div>
+        <div class="sparkles">
+            <div class="sparkle a1"></div>
+            <div class="sparkle a2"></div>
+            <div class="sparkle a3"></div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</div>
+<div class="reset">
+    <button id="open">Open</button>
+    <button id="rewind-btn">Rewind Lagi?</button>
+    <button id="reset">Close</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+<audio autoplay loop>
+    <source src = ".mp3" type="audio/mp3"/>
+</audio>
+<script>
+    document.getElementById("bg-music").volume = 0.5;
+</script>
+
+<div id="rotate-overlay" aria-hidden="true">
+<div class="rotate-message">
+    <div class="rotate-icon">↪︎</div>
+    <h2>Disarankan agar layar Handphone nya mode horizontal yaa</h2>
+    <p>Untuk tampilan terbaik, putar Layar Handphone ke horizontal atau nyalakan mode desktop dari browser yang kamu pake 🧏‍♂️🧏‍♂️ Tapi kamu tetap bisa lanjut kayak gini kok!</p>
+    <button id="continue-portrait">Mawu Gini Ajaaaa 😡</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
