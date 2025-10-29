@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const rewindSteps = [
     { year: 2009, img: "i1.jpg", msg: "Di suatu tempat yang pastinya di bumi, 30 Oktober 2009. Kamu yang imut dan lucu lahir ke dunia :>" },
     { year: 2022, img: "yay.png", msg: "Di pertengahan 2022 kita ketemu dan saling kenal. Lewat chat iseng aku yang diterusin ke kamu sama temen ku hehe 😭 Sejak itu aku semakin berusaha untuk mengenal kamu😈" },
-    { year: 2025, img: "Feliz Cumpleaños con Emojis y Globos.png", msg: "Dan sekarang, 30 Oktober 2025, kamu udah tumbuh jauh lebih dewasa dan jauuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuh lebih hebat 💖" },
+    { year: 2025, img: "Feliz Cumpleaños con Emojis y Globos.png", msg: "Dan sekarang, 30 Oktober 2025, kamu udah tumbuh jauh lebih dewasa dan bahkan jauuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuh lebih hebat 💖" },
   ];
 
   let current = 0;
@@ -310,4 +310,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
 
